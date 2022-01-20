@@ -1,0 +1,14 @@
+.nav {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.demo {
+  color: red;
+  font-size: 3em;
+  border: 1px solid red;
+}
+.demo .text {
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

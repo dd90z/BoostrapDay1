@@ -1,0 +1,19 @@
+$color: red;
+@import "./_components/_navbar";
+
+@mixin font-size {
+    font-size: 3em;
+    border: 1px solid red;
+}
+
+.demo {
+
+    color: $color;
+
+    @include font-size;
+
+    .text {
+        background-color: yellow;
+    }
+
+}
